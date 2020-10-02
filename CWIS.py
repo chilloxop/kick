@@ -1,3 +1,5 @@
+__author__ = 'JonesBBQ -- K!CK M3 Team'
+
 import socket
 import threading
 import time
@@ -23,11 +25,14 @@ print("""\n
 ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████    
     """)
 
-
+git_rep = 'https://github.com/chilloxop/kick.git'   #github page
+git_proj = 'https://github.com/chilloxop/kick/blob/master/CWIS.py'  #github source code for CWIS
 rep_oc = 0  # just means repeated stuff and prints numbers out. weird variable names huh?
-print('\nVersion 1.2.5   --------------    By JonesBBQ at the K!CK M3 Team      ')
+print('\nVersion 1.3   --------------    By JonesBBQ at the K!CK M3 Team      ')
+print('Check out the github repo here: ' + git_rep)
+print('Source code here: ' + git_proj)
 time.sleep(3)
-target = input('\nEnter target IP address : ')
+target = input('\nEnter target IP address     ||it can be a http url||     : ')  #because awesome dns conversion or what ever does it
 port = int(input('\nEnter port of target : '))
 ip_mask = input('\nEnter IP mask    ||makes your attack traceless||   : ')  # not fully anonymous note: make it better
 num_thread = int(input('\nEnter number of threads          ||25 is decent depending on pc power||              : '))
