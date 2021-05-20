@@ -1,10 +1,37 @@
+
 __author__ = 'JonesBBQ'
 
 import requests
 from bs4 import BeautifulSoup
+import colorama
 import re
+from colorama import Fore, Back, Style
 
-url = input('\nEnter URL you want to scrap : ')  # makes it more user friendly i guess (note: its full address)
+
+print(Fore.RED + """
+            ______              
+         .-'      `-.           
+       .'            `.         
+      /                \        
+     ;                  ;      
+     |                  |;       
+     ;                 ;|
+     '\               / ;       
+      \`.           .' /        
+       `.`-._____.-' .'         
+         / /`_____.-'           
+        / / /                   
+       / / /
+      / / /
+     / / /
+    / / /
+   / / /
+  / / /
+ / / /
+/ / /
+\/_/""")
+
+url = input(Fore.MAGENTA + '\nEnter URL you want to scrap : ')  # makes it more user friendly i guess (note: its full address)
 site_data = requests.get(url)
 html_element = input('\nEnter elements to target with BeautifulSoup  ||e.g body, table, iframe||  : ')
 special_class_tag = input('Enter special class tag ||leave blank for any||  : ')
@@ -27,6 +54,9 @@ print('\n######################  ||  RAW SOUP HTML  ||  ######################')
 print('\n', special_html_tag)
 print('\n\n\n\n\n\n\n\n\n\n')
 print('\nEnd of task')
+
+
+
 
 
 
