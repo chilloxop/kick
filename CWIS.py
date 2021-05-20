@@ -7,13 +7,12 @@ import random
 import struct
 import sys
 import os
+import colorama
+from colorama import Fore, Back, Style
 
 
-class color:  #########fix this color class (might not even be my fault maybe some gay terminal stuff)
-    pass
 
-
-print("""\n
+print(Fore.RED + """\n
 ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
 █                                                                                                                                                                        █
 █                    ██████╗██╗    ██╗██╗███████╗                                                                                                                        █
@@ -28,7 +27,7 @@ print("""\n
 git_rep = 'https://github.com/chilloxop/kick.git'   #github page
 git_proj = 'https://github.com/chilloxop/kick/blob/master/CWIS.py'  #github source code for CWIS
 rep_oc = 0  # just means repeated stuff and prints numbers out. weird variable names huh?
-print('\nVersion 1.3   --------------    By JonesBBQ at the K!CK M3 Team      ')
+print(Fore.MAGENTA + '\nVersion 1.3   --------------    By JonesBBQ at the K!CK M3 Team      ')
 print('Check out the github repo here: ' + git_rep)
 print('Source code here: ' + git_proj)
 time.sleep(3)
@@ -91,7 +90,6 @@ def sec_attack2():
         rep_oc += 1  # look at line 10
         if rep_oc % 500 == 0:     #every 500 hits it prints it
             print(rep_oc)
-
 
 
 
