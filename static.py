@@ -1,7 +1,7 @@
 import os 
 import time
 while True:	
-	os.system("bash -c 'cd scripts && python img-viewer.py noise.png'")
+	os.system("bash -c 'python img-viewer.py noise (1).png'")
 	time.sleep(1)
 os.system("bash -c 'mkdir static'")
 os.system("bash -c 'mkdir error'")
