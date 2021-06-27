@@ -76,7 +76,7 @@ loop do
                 puts(" cpu ".colorize(:color => :white, :background => :yellow) + " Rejected".colorize(:color => :red) + " share #" + String(sharecount) + ", speed: " + String(Integer(hashrate / 1000)) + "kH/s @ diff " + String(difficulty))
                 break
                 end
-            end
-        end
-    end
+           end
+       end
+   end
 end
